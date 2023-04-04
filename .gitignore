@@ -1,0 +1,29 @@
+# Node.js
+node_modules
+npm-debug.log
+
+# Compiled files
+/dist
+/build
+/out
+/public/bundle.js
+
+# Logs and databases
+logs
+*.log
+*.sqlite
+
+# Miscellaneous
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.vscode
+.idea
+*.iml
+.DS_Store?
+.DS_Store/
+*.swp
+*~
