@@ -6,6 +6,11 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'public'),
   },
+  devServer: {
+    proxy: {
+      '/api': { target: 'http://localhost:3001', pathRewrite: { '^/api': '' } },
+    },
+  },
   module: {
     rules: [
       {
