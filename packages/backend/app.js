@@ -3,8 +3,8 @@ const app = express();
 
 app.use(express.static('public'));
 
-app.get('/', (req, res) => {
-  res.send('Node.js Visualizer');
+app.get('/ex', (req, res) => {
+  res.send({ message: `Node.js Visualizer!` });
 });
 
 const port = process.env.PORT || 3001;
